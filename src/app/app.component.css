@@ -1,0 +1,37 @@
+#pdf-download {
+    width: 1000px;
+    padding: 80px 0;
+}
+
+#downloadInfo {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 900px;
+    margin: 0 auto;
+}
+
+#downloadInfo td, #downloadInfo th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#downloadInfo thead th, #downloadInfo tfoot td {
+    background-color: #fafafa;
+}
+
+#downloadInfo tfoot td {
+    font-weight: bold;
+}
+
+#downloadInfo tfoot td:first-child {
+    text-align: left;
+}
+
+
+
+#downloadInfo th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #000;
+}
